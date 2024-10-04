@@ -4,7 +4,7 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import Earth from "./Earth";
 import Stars from "./Stars";
 import { getFresnelMat } from "../utils/getFresnelMat";
-import "./CanvasScene.css";
+
 const CanvasScene = () => {
   const mountRef = useRef(null);
 
@@ -66,7 +66,7 @@ const CanvasScene = () => {
     };
   }, []);
 
-  return <div ref={mountRef} />;
+  return <div ref={mountRef} className="fixed top-0 left-0 w-full h-full z-[-1]" />;
 };
 
 export default CanvasScene;
