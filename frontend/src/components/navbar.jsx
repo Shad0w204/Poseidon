@@ -16,7 +16,7 @@ function Navbar() {
           Logout
         </button>
         <button className="text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 px-3 py-1 rounded mx-4">
-          <a href='/login'>Login</a>
+          <a href='/login'>Login or Register</a>
         </button>
       </div>
     </div>
